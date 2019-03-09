@@ -1,0 +1,17 @@
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" class="init">
+$(document).ready(function() {
+	$('#mytable').DataTable();
+} );
+	</script>
+</head>
+
+<table id="mytable" class="display" style="width:80%">
+%s
+<!--
+https://datatables.net/examples/advanced_init/html5-data-attributes.html
+-->
